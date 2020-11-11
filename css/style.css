@@ -6,8 +6,37 @@ a{
 #alala123{
 	color:yellow;
 }
-
-div{
+.message{
 	color:lime;
-	font-size:30px;
+	font-size:21px;
+	background-color:#E4E4E4;
+	border: 1px solid #323232;
+	margin: 10px;
+	margin-left: 40px;
+	margin-right: 40px;
+	padding: 10px;
+}
+
+.success{
+	background-color:#19A15F;
+	color:#ffffff;
+}
+
+.fail{
+	color:black;
+	background-color:red;
+}
+
+.ok{
+	color:lime;
+	background-color:yellow;
+}
+
+.warning{
+	color:orange;
+	background-color:white;
+}
+
+.message:hover{
+	border: 10px solid #323232;
 }
